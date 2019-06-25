@@ -4,6 +4,6 @@
 
 mvn clean install -DskipTests
 
-## Run in Docker Container
+## Run in docker container
 
 docker-compose up --build
