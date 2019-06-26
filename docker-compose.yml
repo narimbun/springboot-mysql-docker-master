@@ -5,10 +5,10 @@ services:
   mysql-employee:
     image: mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: 'root'
-      MYSQL_DATABASE: 'test'
-      MYSQL_USER: 'test'
-      MYSQL_PASSWORD: 'password'
+    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_DATABASE=test
+    - MYSQL_USER=user
+    - MYSQL_PASSWORD=password
     ports:
       - 3306:3306
       
